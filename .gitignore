@@ -1,3 +1,5 @@
+devnotes-index.json
+.env
 _build/
 node_modules/
 .jupyter_cache/

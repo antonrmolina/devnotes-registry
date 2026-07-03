@@ -1,0 +1,13 @@
+version: 1
+project:
+  title: Nucleus DevNotes
+  toc:
+    - file: index.md
+  plugins:
+    - plugins/nucleus-devnotes.mjs
+
+site:
+  template: book-theme
+  options:
+    logo: null
+    style: static/custom.css

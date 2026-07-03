@@ -1,0 +1,9 @@
+repos:
+  - org: antonrmolina
+    repo: devnotes-cern-2026
+    license: CERN-OHL-P-2.0
+    year: 2026
+  - org: antonrmolina
+    repo: devnotes-ccby-2026
+    license: CC-BY-4.0
+    year: 2026
