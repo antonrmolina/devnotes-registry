@@ -105,3 +105,18 @@
   background: #f3f4f6;
   color: #6b7280;
 }
+
+.dn-open {
+  margin-top: 8px;
+}
+
+.dn-open a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.dn-open a:hover {
+  text-decoration: underline;
+}

@@ -52,6 +52,7 @@ function renderCard(entry) {
       ${licenseBadge(entry.license)}
       ${pills}
     </div>
+    <div class="dn-open"><a href="${entry.devnote_url}" target="_blank" rel="noopener noreferrer">Open DevNote →</a></div>
   </div>
 </div>`;
 }
