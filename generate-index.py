@@ -1,6 +1,7 @@
 import base64
 import json
 import os
+# registry index generator
 
 import requests
 import yaml
