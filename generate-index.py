@@ -1,7 +1,7 @@
 import base64
 import json
 import os
-# registry index generator
+# registry index generator — force redeploy
 
 import requests
 import yaml
