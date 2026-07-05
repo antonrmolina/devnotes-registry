@@ -8,7 +8,7 @@ on:
     types: [devnote-published]
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -20,6 +20,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-python@v5
         with:
@@ -42,6 +44,14 @@ jobs:
           for d in data:
             print(f'  - {d[\"title\"]}')
           "
+
+      - name: Commit devnotes-index.json
+        run: |
+          git config user.name "nucleus-bot"
+          git config user.email "build@bnext.bio"
+          git add devnotes-index.json
+          git diff --cached --quiet || git commit -m "index: regenerate devnotes-index.json"
+          git push
 
       - uses: actions/setup-node@v4
         with:
