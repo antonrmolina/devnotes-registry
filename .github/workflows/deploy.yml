@@ -51,6 +51,7 @@ jobs:
           git config user.email "build@bnext.bio"
           git add devnotes-index.json
           git diff --cached --quiet || git commit -m "index: regenerate devnotes-index.json"
+          git pull --rebase
           git push
 
       - uses: actions/setup-node@v4
