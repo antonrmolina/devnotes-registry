@@ -8,9 +8,9 @@ project:
 
 site:
   template: book-theme
+  nav:
+    - title: Contribute
+      url: https://nucleus-submit.onrender.com
   options:
     logo: null
     style: static/custom.css
-    nav:
-      - title: Contribute
-        url: https://nucleus-submit.onrender.com
