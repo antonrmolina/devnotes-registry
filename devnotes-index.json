@@ -1,0 +1,359 @@
+[
+  {
+    "title": "Characterizing the Limited Operational Lifetime of Cytosol Reactions",
+    "description": "PURE systems exhibit limited operational lifetimes at 37 \u00b0C, but whether this stems from component instability or resource depletion remains unclear. We systematically deconvolved the Cytosol system and demonstrated that individual components remain fully active when thermally incubated in isolation. Instead, performance loss requires multi-component coexistence. Pre-incubating a small-molecule mix (SMix) with a protein mix (PMix) reduced translation yields, an effect severely exacerbated by ribosomes. These findings indicate that reaction lifetime is limited by an uncoupled, background metabolic drain rather than the intrinsic thermal decay of individual system resources.\n",
+    "date": "2026-06-24",
+    "authors": [
+      {
+        "name": "Surendra Yadav",
+        "affiliation": "b.next, San Francisco, California, 94107, USA",
+        "email": "surendra@bnext.bio"
+      }
+    ],
+    "keywords": [
+      "Cytosol",
+      "Lifetime"
+    ],
+    "license": "CC-BY-4.0",
+    "thumbnail": "experiments/20260506-Cytosol-Lifetime-Test/kinetics-normalized.png",
+    "collections": [
+      "REVIEW: inferred \u2014 Nucleus DevNotes / Cytosol / Characterization"
+    ],
+    "thumbnail_url": "https://raw.githubusercontent.com/antonrmolina/devnotes-cern-2026/main/cytosol-lifetime/experiments/20260506-Cytosol-Lifetime-Test/kinetics-normalized.png",
+    "devnote_url": "https://antonrmolina.github.io/devnotes-cern-2026/cytosol-lifetime/",
+    "repo_org": "antonrmolina",
+    "repo_name": "devnotes-cern-2026",
+    "subdir": "cytosol-lifetime"
+  },
+  {
+    "title": "Cytosolic Compartment Characterization in a Lipid Vesicle-Encapsulated PURE System",
+    "description": "We characterize the biochemical composition and translational capacity of a minimal cytosol reconstituted from purified components and encapsulated within giant unilamellar vesicles.",
+    "date": "2026-06-01",
+    "authors": [
+      {
+        "name": "Elisa Ramponi",
+        "affiliation": "European Molecular Biology Laboratory, Heidelberg"
+      }
+    ],
+    "keywords": [
+      "PURE system",
+      "cell-free",
+      "synthetic cell",
+      "GUV",
+      "cytosol"
+    ],
+    "license": "CERN-OHL-P-2.0",
+    "thumbnail": "figures/key-result.png",
+    "collections": [
+      "nucleus-core"
+    ],
+    "thumbnail_url": "https://raw.githubusercontent.com/antonrmolina/devnotes-cern-2026/main/cytosol-characterization/figures/key-result.png",
+    "devnote_url": "https://antonrmolina.github.io/devnotes-cern-2026/cytosol-characterization/",
+    "repo_org": "antonrmolina",
+    "repo_name": "devnotes-cern-2026",
+    "subdir": "cytosol-characterization"
+  },
+  {
+    "title": "Systematic Optimization of Mg\u00b2\u207a and Crowder Concentrations for Maximal PURE System Yield",
+    "description": "A factorial design screen of magnesium acetate and PEG-8000 concentrations identifies conditions that increase cell-free GFP expression nearly twofold relative to standard PURE system protocols.",
+    "date": "2026-06-01",
+    "authors": [
+      {
+        "name": "Marcus Lindqvist",
+        "affiliation": "Max Planck Institute of Biochemistry, Martinsried"
+      }
+    ],
+    "keywords": [
+      "PURE system",
+      "cell-free",
+      "synthetic cell",
+      "optimization",
+      "protein synthesis"
+    ],
+    "license": "CERN-OHL-P-2.0",
+    "thumbnail": "figures/key-result.png",
+    "collections": [
+      "nucleus-core"
+    ],
+    "thumbnail_url": "https://raw.githubusercontent.com/antonrmolina/devnotes-cern-2026/main/pure-optimization/figures/key-result.png",
+    "devnote_url": "https://antonrmolina.github.io/devnotes-cern-2026/pure-optimization/",
+    "repo_org": "antonrmolina",
+    "repo_name": "devnotes-cern-2026",
+    "subdir": "pure-optimization"
+  },
+  {
+    "title": "Spontaneous RNA Condensate Formation During GUV Encapsulation of Poly-A Sequences",
+    "description": "During routine encapsulation experiments, dense fluorescent foci appeared reproducibly in vesicles containing poly-A RNA above 0.5 mg/mL, suggesting that crowding-driven phase separation may occur under physiologically relevant cytomimetic conditions.",
+    "date": "2026-06-01",
+    "authors": [
+      {
+        "name": "Sarah Chen",
+        "affiliation": "Department of Biochemistry, University of Cambridge"
+      }
+    ],
+    "keywords": [
+      "PURE system",
+      "cell-free",
+      "synthetic cell",
+      "RNA condensates",
+      "phase separation"
+    ],
+    "license": "CC-BY-4.0",
+    "thumbnail": "figures/key-result.png",
+    "collections": [
+      "cambridge-rna-condensate"
+    ],
+    "thumbnail_url": "https://raw.githubusercontent.com/antonrmolina/devnotes-ccby-2026/main/lab-notes-condensate/figures/key-result.png",
+    "devnote_url": "https://antonrmolina.github.io/devnotes-ccby-2026/lab-notes-condensate/",
+    "repo_org": "antonrmolina",
+    "repo_name": "devnotes-ccby-2026",
+    "subdir": "lab-notes-condensate"
+  },
+  {
+    "title": "PURExpress Cytosol Assembly with Broccoli 2/mScarlet Reporter",
+    "description": "A PURExpress cell-free protein synthesis reaction was assembled with a Broccoli 2 RNA aptamer and mScarlet reporter plasmid to test whether transcription and translation could be detected in real time by fluorescence kinetics in a defined reconstituted cytosol. Fluorescence in positive reactions increased over four hours while no-DNA controls remained near baseline, confirming template-dependent expression.\n",
+    "date": "2026-04-03",
+    "authors": [
+      {
+        "name": "Emily Cook",
+        "affiliation": "California Polytechnic University, San Luis Obispo",
+        "email": "ecook11@calpoly.edu"
+      },
+      {
+        "name": "Suna Nguyen",
+        "affiliation": "California Polytechnic University, San Luis Obispo",
+        "email": "snguy230@calpoly.edu"
+      }
+    ],
+    "keywords": [
+      "cell-free protein synthesis",
+      "PURExpress",
+      "Broccoli 2",
+      "mScarlet",
+      "RNA aptamer",
+      "synthetic cell"
+    ],
+    "license": "CC-BY-4.0",
+    "thumbnail": "figures/kinetics-broccoli-mscarlet.png",
+    "collections": [
+      {
+        "REVIEW": "inferred \u2014 CHEM 471 Synthetic Cells coursework"
+      }
+    ],
+    "thumbnail_url": "https://raw.githubusercontent.com/antonrmolina/devnotes-ccby-2026/main/calpoly-purexpress-broccoli/figures/kinetics-broccoli-mscarlet.png",
+    "devnote_url": "https://antonrmolina.github.io/devnotes-ccby-2026/calpoly-purexpress-broccoli/",
+    "repo_org": "antonrmolina",
+    "repo_name": "devnotes-ccby-2026",
+    "subdir": "calpoly-purexpress-broccoli"
+  },
+  {
+    "title": "PURExpress Cytosol Assembly with Broccoli 2/mScarlet Reporter",
+    "description": "A PURExpress cell-free protein synthesis reaction using a Broccoli 2 RNA aptamer and mScarlet reporter plasmid was assembled to test whether transcription and translation could be detected in real time by fluorescence; increasing fluorescence in positive reactions and baseline signal in no-DNA controls confirmed template-dependent expression over 4 hours.\n",
+    "date": "2026-04-03",
+    "authors": [
+      {
+        "name": "henry henry",
+        "affiliation": "b.next",
+        "email": "antonmolina@bnext.bio"
+      }
+    ],
+    "keywords": [
+      "cell-free protein synthesis",
+      "PURExpress",
+      "Broccoli 2",
+      "mScarlet",
+      "RNA aptamer",
+      "cytosol assembly"
+    ],
+    "license": "CC-BY-4.0",
+    "thumbnail": "kinetics-broccoli-mscarlet.png",
+    "collections": [
+      {
+        "REVIEW": "inferred \u2014 nucleus-core, cal-poly"
+      }
+    ],
+    "thumbnail_url": "https://raw.githubusercontent.com/antonrmolina/devnotes-ccby-2026/main/dn-2026-152dc4d0/kinetics-broccoli-mscarlet.png",
+    "devnote_url": "https://antonrmolina.github.io/devnotes-ccby-2026/dn-2026-152dc4d0/",
+    "repo_org": "antonrmolina",
+    "repo_name": "devnotes-ccby-2026",
+    "subdir": "dn-2026-152dc4d0"
+  },
+  {
+    "title": "PURExpress Cytosol Assembly with Broccoli 2/mScarlet Reporter",
+    "description": "A standard PURExpress cell-free protein synthesis reaction using a Broccoli 2 RNA aptamer and mScarlet reporter plasmid was assembled to test whether transcription and translation could be detected in real time by fluorescence in a defined reconstituted cytosol.\n",
+    "date": "2026-04-03",
+    "authors": [
+      {
+        "name": "Lord Kelvinho",
+        "email": "antonmolina@bnext.bio",
+        "affiliation": "b.next"
+      }
+    ],
+    "keywords": [
+      "cell-free protein synthesis",
+      "PURExpress",
+      "Broccoli aptamer",
+      "mScarlet",
+      "CFPS",
+      "cytosol assembly"
+    ],
+    "license": "CC-BY-4.0",
+    "thumbnail": "kinetics-broccoli-mscarlet.png",
+    "collections": [
+      {
+        "REVIEW": "inferred \u2014 nucleus-core, cal-poly"
+      }
+    ],
+    "thumbnail_url": "https://raw.githubusercontent.com/antonrmolina/devnotes-ccby-2026/main/dn-2026-ccby-purexpress-broccoli-mscarlet/kinetics-broccoli-mscarlet.png",
+    "devnote_url": "https://antonrmolina.github.io/devnotes-ccby-2026/dn-2026-ccby-purexpress-broccoli-mscarlet/",
+    "repo_org": "antonrmolina",
+    "repo_name": "devnotes-ccby-2026",
+    "subdir": "dn-2026-ccby-purexpress-broccoli-mscarlet"
+  },
+  {
+    "title": "PURExpress Cytosol Assembly with Broccoli 2/mScarlet Reporter",
+    "description": "A PURExpress cell-free protein synthesis reaction using a Broccoli 2 RNA aptamer and mScarlet reporter plasmid was assembled and monitored by fluorescence kinetics over 4 hours, confirming that transcription and translation could be detected in real time in a defined reconstituted cytosol.\n",
+    "date": "2026-04-03",
+    "authors": [
+      {
+        "name": "Sam Cell",
+        "affiliation": "Cal Poly",
+        "email": "samcell@calpoly.edu"
+      }
+    ],
+    "keywords": [
+      "cell-free protein synthesis",
+      "PURExpress",
+      "Broccoli aptamer",
+      "mScarlet",
+      "fluorescence kinetics",
+      "cytosol assembly"
+    ],
+    "license": "CC-BY-4.0",
+    "thumbnail": "kinetics-broccoli-mscarlet.png",
+    "collections": [
+      {
+        "REVIEW": "inferred \u2014 nucleus-core, cal-poly"
+      }
+    ],
+    "thumbnail_url": "https://raw.githubusercontent.com/antonrmolina/devnotes-ccby-2026/main/dn-2026-ccby-purexpress-broccoli2-mscarlet/kinetics-broccoli-mscarlet.png",
+    "devnote_url": "https://antonrmolina.github.io/devnotes-ccby-2026/dn-2026-ccby-purexpress-broccoli2-mscarlet/",
+    "repo_org": "antonrmolina",
+    "repo_name": "devnotes-ccby-2026",
+    "subdir": "dn-2026-ccby-purexpress-broccoli2-mscarlet"
+  },
+  {
+    "title": "PURExpress Cytosol Assembly with Broccoli 2/mScarlet Reporter",
+    "description": "A standard PURExpress cell-free protein synthesis reaction using a Broccoli 2 RNA aptamer and mScarlet reporter plasmid was assembled to test whether transcription and translation could be detected in real time by fluorescence in a defined reconstituted cytosol.\n",
+    "date": "2026-04-03",
+    "authors": [
+      {
+        "name": "Sir Newton",
+        "affiliation": "b.next",
+        "email": "antonmolina@bnext.bio"
+      }
+    ],
+    "keywords": [
+      "cell-free protein synthesis",
+      "PURExpress",
+      "Broccoli aptamer",
+      "mScarlet",
+      "cytosol assembly",
+      "CFPS"
+    ],
+    "license": "CC-BY-4.0",
+    "thumbnail": "kinetics-broccoli-mscarlet.png",
+    "collections": [
+      {
+        "REVIEW": "inferred \u2014 nucleus-core, cal-poly"
+      }
+    ],
+    "thumbnail_url": "https://raw.githubusercontent.com/antonrmolina/devnotes-ccby-2026/main/dn-2026-ccby-purexpress-cytosol-broccoli-mscarlet/kinetics-broccoli-mscarlet.png",
+    "devnote_url": "https://antonrmolina.github.io/devnotes-ccby-2026/dn-2026-ccby-purexpress-cytosol-broccoli-mscarlet/",
+    "repo_org": "antonrmolina",
+    "repo_name": "devnotes-ccby-2026",
+    "subdir": "dn-2026-ccby-purexpress-cytosol-broccoli-mscarlet"
+  },
+  {
+    "title": "Nucleus Base Cell Testing",
+    "description": "This Developer Note presents the first evaluation of Nucleus Base Cell, a liposome-encapsulated system containing Nucleus Cytosol for protein synthesis. We demonstrate preparation of the lipid mixture, successful assembly of liposomes containing Cytosol, and time-course expression of deGFP inside the liposomes using a pOpen-deGFP DNA template, establishing the activity of Base Cell.\n",
+    "date": "2025-12-19",
+    "authors": [
+      {
+        "name": "Surendra Yadav",
+        "affiliation": "b.next, San Francisco, California, 94107, USA",
+        "email": "surendra@bnext.bio"
+      }
+    ],
+    "keywords": [
+      "Cytosol",
+      "PURE",
+      "Base Cell",
+      "Developer Cell"
+    ],
+    "license": "CC-BY-4.0",
+    "thumbnail": "experiments/Image1.png",
+    "collections": [
+      "REVIEW: inferred \u2014 Nucleus DevNotes / Base Cell"
+    ],
+    "thumbnail_url": "https://raw.githubusercontent.com/antonrmolina/devnotes-cern-2026/main/base-cell/experiments/Image1.png",
+    "devnote_url": "https://antonrmolina.github.io/devnotes-cern-2026/base-cell/",
+    "repo_org": "antonrmolina",
+    "repo_name": "devnotes-cern-2026",
+    "subdir": "base-cell"
+  },
+  {
+    "title": "First Nucleus Cytosol Testing",
+    "description": "PURE serves as a foundational platform for constructing synthetic cells from the bottom up. In this Developer Note, we present the first evaluation of Nucleus Cytosol, an open-source alternative to the PURE system, by assessing the expression and yield of deGFP in comparison to a commercial PURE system. Our results show that Nucleus Cytosol performs comparably, with optimal protein expression achieved at a final Mg2+ concentration of 8 mM.\n",
+    "date": "2025-11-13",
+    "authors": [
+      {
+        "name": "Surendra Yadav",
+        "affiliation": "b.next, San Francisco, California, 94107, USA",
+        "email": "surendra@bnext.bio"
+      }
+    ],
+    "keywords": [
+      "Cytosol",
+      "PURE",
+      "Developer Cell"
+    ],
+    "license": "CC-BY-4.0",
+    "thumbnail": "experiments/20251104-NucleusPURE_deGFP/Kinetics.png",
+    "collections": [
+      "REVIEW: inferred \u2014 Nucleus DevNotes / Cytosol"
+    ],
+    "thumbnail_url": "https://raw.githubusercontent.com/antonrmolina/devnotes-cern-2026/main/nucleus-cytosol-v05/experiments/20251104-NucleusPURE_deGFP/Kinetics.png",
+    "devnote_url": "https://antonrmolina.github.io/devnotes-cern-2026/nucleus-cytosol-v05/",
+    "repo_org": "antonrmolina",
+    "repo_name": "devnotes-cern-2026",
+    "subdir": "nucleus-cytosol-v05"
+  },
+  {
+    "title": "PPK Module testing in PURE",
+    "description": "Efficient energy regeneration is critical for sustaining protein synthesis in the PURE (Protein synthesis Using Recombinant Elements) system. Traditionally, the creatine phosphate/creatine kinase (CP/CK) module, supplemented with adenylate kinase and nucleoside-diphosphate kinase, has been employed to fulfill this role. In this study, we explored the implementation of a polyphosphate kinase (PPK2)-based energy regeneration system within the PURExpress platform. While previous work has demonstrated the effectiveness of PPK2 in supporting mRNA-driven protein synthesis, we extend these findings by showing that PPK2 can also support protein synthesis when DNA is used as the expression template. Furthermore, we demonstrate that combining the PPK2 module with the existing CP/CK system results in a synergistic effect, enhancing protein production by over 96% relative to the CP/CK module alone. These results highlight the potential of modular energy regeneration strategies to improve the efficiency and yield of in vitro protein synthesis in the PURE system.\n",
+    "date": "2025-07-15",
+    "authors": [
+      {
+        "name": "Surendra Yadav",
+        "affiliation": "b.next, San Francisco, California, 94107, USA",
+        "email": "surendra@bnext.bio"
+      }
+    ],
+    "keywords": [
+      "Cytosol",
+      "Module",
+      "Energy Regeneration"
+    ],
+    "license": "CC-BY-4.0",
+    "thumbnail": "figures/PPK-illustration.png",
+    "collections": [
+      "REVIEW: inferred \u2014 Nucleus DevNotes / Cytosol / Energy Modules"
+    ],
+    "thumbnail_url": "https://raw.githubusercontent.com/antonrmolina/devnotes-cern-2026/main/ppk/figures/PPK-illustration.png",
+    "devnote_url": "https://antonrmolina.github.io/devnotes-cern-2026/ppk/",
+    "repo_org": "antonrmolina",
+    "repo_name": "devnotes-cern-2026",
+    "subdir": "ppk"
+  }
+]
