@@ -180,6 +180,38 @@
   },
   {
     "title": "PURExpress Cytosol Assembly with Broccoli 2/mScarlet Reporter",
+    "description": "A standard PURExpress cell-free protein synthesis reaction using a Broccoli 2 RNA aptamer and mScarlet reporter plasmid was assembled and monitored by fluorescence kinetics over 4 hours, confirming template-dependent transcription and translation in a defined reconstituted cytosol.\n",
+    "date": "2026-04-03",
+    "authors": [
+      {
+        "name": "adam smith",
+        "affiliation": "b.next",
+        "email": "build@bnext.bio"
+      }
+    ],
+    "keywords": [
+      "cell-free protein synthesis",
+      "PURExpress",
+      "Broccoli 2",
+      "mScarlet",
+      "RNA aptamer",
+      "cytosol assembly"
+    ],
+    "license": "CC-BY-4.0",
+    "thumbnail": "kinetics-broccoli-mscarlet.png",
+    "collections": [
+      {
+        "REVIEW": "inferred \u2014 nucleus-core, cal-poly"
+      }
+    ],
+    "thumbnail_url": "https://raw.githubusercontent.com/antonrmolina/devnotes-ccby-2026/main/dn-2026-a0e0cd8b/kinetics-broccoli-mscarlet.png",
+    "devnote_url": "https://antonrmolina.github.io/devnotes-ccby-2026/dn-2026-a0e0cd8b/",
+    "repo_org": "antonrmolina",
+    "repo_name": "devnotes-ccby-2026",
+    "subdir": "dn-2026-a0e0cd8b"
+  },
+  {
+    "title": "PURExpress Cytosol Assembly with Broccoli 2/mScarlet Reporter",
     "description": "A standard PURExpress cell-free protein synthesis reaction using a Broccoli 2 RNA aptamer and mScarlet reporter plasmid was assembled to test whether transcription and translation could be detected in real time by fluorescence in a defined reconstituted cytosol.\n",
     "date": "2026-04-03",
     "authors": [
