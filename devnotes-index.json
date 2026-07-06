@@ -5,6 +5,38 @@
     "date": "2026-07-04",
     "authors": [
       {
+        "name": "Sam Cell",
+        "affiliation": "A Lab",
+        "email": "fake@bio.gov"
+      }
+    ],
+    "keywords": [
+      "PURE system",
+      "cell-free protein synthesis",
+      "cytosol lifetime",
+      "SMix",
+      "PMix",
+      "ribosomes"
+    ],
+    "license": "CC-BY-4.0",
+    "thumbnail": "00-test-template/figures/media/image1.png",
+    "collections": [
+      {
+        "REVIEW": "inferred \u2014 nucleus-core"
+      }
+    ],
+    "thumbnail_url": "https://raw.githubusercontent.com/antonrmolina/devnotes-ccby-2026/main/dn-2026-2f4bcdd2/00-test-template/figures/media/image1.png",
+    "devnote_url": "https://antonrmolina.github.io/devnotes-ccby-2026/dn-2026-2f4bcdd2/",
+    "repo_org": "antonrmolina",
+    "repo_name": "devnotes-ccby-2026",
+    "subdir": "dn-2026-2f4bcdd2"
+  },
+  {
+    "title": "A very simple experiment",
+    "description": "PURE systems exhibit limited operational lifetimes at 37 \u00b0C, but whether this stems from component instability or resource depletion remains unclear. Pre-incubating a small-molecule mix (SMix) with a protein mix (PMix) reduced translation yields, an effect severely exacerbated by ribosomes, indicating that reaction lifetime is limited by an uncoupled, background metabolic drain rather than the intrinsic thermal decay of individual system resources.\n",
+    "date": "2026-07-04",
+    "authors": [
+      {
         "name": "John Hancock",
         "affiliation": "Paradigm Inc.",
         "email": "freedom@usa.gov"
